@@ -1,0 +1,15 @@
+{
+  "name": "knife-tour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kinsteronline/knife-tour.git",
+  "author": "Todd Makinster <tmakinster@guaranteedrate.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

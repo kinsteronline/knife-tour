@@ -1,0 +1,14 @@
+:root {
+  /* --game-font: 'Space Mono'; */
+  --game-font: 'Share Tech Mono';
+}
+
+html, body {
+  font-family: var(--game-font);
+  background-color: black;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+}
